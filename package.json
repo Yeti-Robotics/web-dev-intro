@@ -1,0 +1,23 @@
+{
+  "name": "web-dev-intro",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "ts-node index.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Yeti-Robotics/web-dev-intro.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Yeti-Robotics/web-dev-intro/issues"
+  },
+  "homepage": "https://github.com/Yeti-Robotics/web-dev-intro#readme",
+  "dependencies": {
+    "ts-node": "^10.4.0"
+  }
+}
