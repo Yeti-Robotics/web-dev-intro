@@ -22,7 +22,7 @@ const Home = () => {
 		const onMouseDown = () => alert('clicked');
 		document.addEventListener('mousedown', onMouseDown);
 		return () => document.removeEventListener('mousedown', onMouseDown);
-	}, []);
+	}, []); // This will only run on one as referenced above
 
 	return (
 		<Layout>
